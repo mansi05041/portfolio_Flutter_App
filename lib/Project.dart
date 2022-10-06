@@ -42,7 +42,8 @@ class ProjectPage extends StatelessWidget {
                     subtitle: Text('First Task : GDSC - Flutter'),
                     contentPadding: EdgeInsets.all(20),
                     onTap: () {
-                      final Uri _url = Uri.parse('https://github.com/');
+                      final Uri _url = Uri.parse(
+                          'https://github.com/mansi05041/portfolio_Flutter_App');
                       _launchUrl(_url);
                     },
                   ),
